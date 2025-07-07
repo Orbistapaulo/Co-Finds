@@ -1,0 +1,19 @@
+<!-- Customize this layout for receiver messages -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Customize the receiver message view here -->
+    <TextView
+        android:id="@+id/receiver_message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="@drawable/received_message_background"
+        android:padding="8dp"
+        android:textSize="20dp"
+        android:layout_margin="4dp"
+    />
+</LinearLayout>
